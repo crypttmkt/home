@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Portalsol Empreendimentos Imobiliários e Participações</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    header { text-align: center; margin-bottom: 30px; }
+    section { margin-bottom: 20px; }
+    h2 { border-bottom: 2px solid #444; padding-bottom: 5px; }
+    .field { margin: 5px 0; }
+    button { margin-right: 10px; }
+    .hidden { display: none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Portalsol Empreendimentos Imobiliários e Participações S/S LTDA</h1>
+  <p><strong>CNPJ:</strong> 52.633.724/0001-76</p>
+</header>
+
+<section id="basic">
+  <h2>Dados Cadastrais</h2>
+  <div class="field"><strong>Razão Social:</strong> Portalsol Empreendimentos Imobiliários e Participações S/S LTDA</div>
+  <div class="field"><strong>Natureza Jurídica:</strong> Sociedade Simples Limitada</div>
+  <div class="field"><strong>Porte:</strong> Micro Empresa</div>
+  <div class="field"><strong>Capital Social:</strong> R$ 5.000,00</div>
+  <div class="field"><strong>Data de Abertura:</strong> 16/06/1983</div>
+  <div class="field"><strong>Situação:</strong> Ativa (desde 01/07/2001)</div>
+</section>
+
+<section id="address">
+  <h2>Endereço e Contatos</h2>
+  <div class="field"><strong>Endereço:</strong> Rua Sena Madureira, 733, Vila Clementino, São Paulo – SP, CEP 04021‑051</div>
+  <div class="field"><strong>Telefone(s):</strong> (11) 96604‑7888 / (13) 3842‑3047</div>
+  <div class="field"><strong>E‑mail:</strong> [email protected]</div>
+</section>
+
+<section id="activities">
+  <h2>Atividades (CNAE)</h2>
+  <div class="field"><strong>Principal (68.21‑8‑01):</strong> Corretagem na compra e venda e avaliação de imóveis</div>
+  <p>Intermediação de compra e venda, avaliação patrimonial, comissão sobre venda, entre outros.</p>
+</section>
+
+<section id="owners">
+  <h2>Quadro Societário</h2>
+  <div class="field"><strong>Sócio‑Administrador:</strong> Maria Clara Silvestre Rincon</div>
+</section>
+
+<section id="extras">
+  <h2>Outras Informações</h2>
+  <button onclick="toggle('share')">Compartilhar</button>
+  <button onclick="toggle('faq')">FAQ</button>
+
+  <div id="share" class="hidden">
+    <p>📱 Compartilhe via:</p>
+    <ul>
+      <li><a href="#">WhatsApp</a></li>
+      <li><a href="#">Facebook</a></li>
+      <li><a href="#">Twitter</a></li>
+      <li><a href="#">Pinterest</a></li>
+    </ul>
+  </div>
+
+  <div id="faq" class="hidden">
+    <h3>Perguntas Frequentes</h3>
+    <ul>
+      <li><strong>De quem é o CNPJ?</strong> Portalsol Empreendimentos Imobiliários e Participações S/S LTDA, São Paulo/SP.</li>
+      <li><strong>Qual a atividade principal?</strong> 68.21‑8‑01 – Corretagem e avaliação de imóveis.</li>
+      <li><strong>Onde fica?</strong> Rua Sena Madureira, 733 – Vila Clementino, São Paulo/SP, CEP 04021‑051.</li>
+      <li><strong>Como entrar em contato?</strong> Telefone: (11) 96604‑7888 / (13) 3842‑3047; e‑mail: [email protected].</li>
+    </ul>
+  </div>
+</section>
+
+<script>
+  function toggle(id) {
+    const el = document.getElementById(id);
+    el.classList.toggle('hidden');
+  }
+</script>
+
+</body>
+</html>
